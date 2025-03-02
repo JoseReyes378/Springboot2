@@ -56,6 +56,7 @@ public class HomeController {
         return "Bienvenido a la API de Turismo";
     }
 }
+![Captura de pantalla 2025-03-02 235352](https://github.com/user-attachments/assets/38af3129-1644-4245-b0c4-b01337ea9a45)
 
 Función: Define un endpoint en la raíz (/) que devuelve un mensaje de bienvenida.
 
@@ -68,6 +69,7 @@ Anotaciones:
 @GetMapping: Maneja peticiones GET.
 
 3.3 Hotel.java (Entidad)
+![Captura de pantalla 2025-03-02 235432](https://github.com/user-attachments/assets/fa2b1f84-99b3-475b-a70b-46bd55235be4)
 
 package com.turismo;
 
@@ -95,6 +97,7 @@ Anotaciones:
 @Id, @GeneratedValue: Define el identificador único del hotel.
 
 3.4 HotelRepository.java
+![Captura de pantalla 2025-03-02 235456](https://github.com/user-attachments/assets/20db91b7-74d9-4620-bcf4-81a35425524a)
 
 package com.turismo;
 
@@ -108,6 +111,7 @@ Función: Interfaz que permite acceder a la base de datos.
 Extiende JpaRepository, que proporciona operaciones CRUD automáticamente.
 
 3.5 HotelService.java
+![Captura de pantalla 2025-03-02 235521](https://github.com/user-attachments/assets/76c6d9b9-7c36-4938-90b7-918c7a10a541)
 
 package com.turismo;
 
@@ -137,6 +141,7 @@ Función: Contiene la lógica de negocio relacionada con los hoteles.
 Inyecta HotelRepository para interactuar con la base de datos.
 
 3.6 HotelController.java
+![Captura de pantalla 2025-03-02 235620](https://github.com/user-attachments/assets/99bd112c-ef6e-4f32-b9bd-2e5a6ea06249)
 
 package com.turismo;
 
@@ -173,6 +178,7 @@ GET /hoteles: Devuelve la lista de hoteles.
 POST /hoteles: Agrega un nuevo hotel.
 
 3.7 SecurityConfig.java
+![Captura de pantalla 2025-03-02 235545](https://github.com/user-attachments/assets/0a9637b6-91a4-4661-a90d-9641ac1d1f73)
 
 package com.turismo;
 
