@@ -33,6 +33,7 @@ public class ApiTurismoApplication {
         SpringApplication.run(ApiTurismoApplication.class, args);
     }
 }
+![Captura de pantalla 2025-03-02 235300](https://github.com/user-attachments/assets/29e57c00-e75f-42e0-9a51-e9075c1462ae)
 
 Función: Clase principal de la aplicación que inicia Spring Boot.
 
